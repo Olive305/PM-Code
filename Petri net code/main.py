@@ -47,6 +47,7 @@ def main():
     t = add_transition
     a = add_arc
     
+    p(net, "business trip required")
     t(net, "file travel request")
     a(net, "business trip required", "file travel request")
     p(net, "travel request filed")
